@@ -6,5 +6,8 @@ import { DetalheProdutoComponent } from './components/detalhe-produto';
 export const routes: Routes = [
   { path: '', component: Home },
   { path: 'produtos', component: ProdutosComponent },
-  { path: 'produto/:id', component: DetalheProdutoComponent }
+  {
+    path: 'produto/:id',
+    component: DetalheProdutoComponent
+  }
 ];
